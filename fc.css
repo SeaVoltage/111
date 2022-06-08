@@ -1,10 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif; 
+
+/* font: normal 16px 'Roboto',
+        sans-serif; */
+}
+
+a {
+    color: black;
+    text-decoration: none;  
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color:rgb(49, 126, 126)
+}
+.avatar {
+    width: 350px;
+    border-radius: 2%;
+  /*   box-shadow: 4px 0px 14px rgba(0, 0, 10, 25); */
+
+}
+
+.info p { 
+    color: #0b0b0c;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none ;
+ /* text-transform: uppercase; 
+    letter-spacing: 5px; 
+    word-spacing: 42px; */
+
+}
+
+.list {
+    padding: 0 50px;
+}
+
+.list li {
+    color: #030303;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: normal;
+}
+
 h1 {color: rgba(80, 76, 76, 0.616);}
 
 h2 {
-    color: rgb(255, 0, 0);
+    color: rgb(19, 19, 19);
 }
 
 
 h3 {
     color: rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.bg-green {
+    background: #7bd8456b;
+}
+
+.bg-yellow {
+background: #ebc40079;
+}
+
+.bg-red {
+    background: #3841381f;
+}
+
+
+.card {
+    padding: 15px 20px;
+   /* background: red; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent; 
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child { 
+    margin-right: 20px;
+}
+
+.btn {
+     background:#111;
+     padding: 15px 20px;
+     color: #fff;
+     border: none;
+     font-family: inherit;
+     cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+
 }
